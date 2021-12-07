@@ -1,0 +1,107 @@
+@media only screen and (min-width: 1024px) {
+  header nav {
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  header nav ul {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  header nav ul li {
+    max-width: 7.5vw;
+  }
+
+  header nav ul li a {
+    width: 7.5vw;
+  }
+
+  #education article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  section article h3,
+  section article h4,
+  section article h5 {
+    padding: 0.3rem 0;
+    text-align: center;
+  }
+
+  p {
+    max-width: 60vw;
+    justify-self: center;
+    align-self: center;
+  }
+
+  section article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 50vw;
+  }
+
+  section article ul,
+  li {
+    max-width: 50vw;
+    width: auto;
+  }
+
+  section article div ul li,
+  a {
+    width: auto;
+  }
+
+  #profile-img {
+    width: 20%;
+  }
+
+  #hamburger {
+    display: none;
+  }
+  section {
+    display: flex;
+    max-height: 1000px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  section:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+  section div {
+    width: 40%;
+    height: 100%;
+    justify-self: center;
+    align-self: center;
+    padding: 0;
+  }
+  section img {
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #b-edu {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  /***************************************************************
+FORM
+***************************************************************/
+  form {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
