@@ -170,6 +170,9 @@ header article h1 {
     justify-content: center;
     align-items: center;
 }
+#jumbo div h2 {
+    text-shadow: 0 0 5px #00000099;
+}
 #jumbo {
     margin-bottom: 300px;
     display: flex;
