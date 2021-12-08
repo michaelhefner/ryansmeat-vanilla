@@ -63,12 +63,13 @@ header {
 header article {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    /* align-items: center; */
 }
 
 header article h1 {
-    margin: 1rem;
+    margin-left: 1rem;
+    margin-right: auto;
 }
 
 header article h3 {
@@ -76,12 +77,19 @@ header article h3 {
     margin-right: auto;
 }
 
+section img {
+    width: 95%;
+    object-fit: cover;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #00000099;
+  }
 header nav {
     /* background-color: #fbfbfb; */
-    width: 100vw;
+    width: 70vw;
     align-self: flex-end;
     margin-top: auto;
-    /*padding: 10px 0 0 0;*/
+    margin-right: auto;
     display: none;
 }
 
@@ -145,9 +153,37 @@ footer p {
     text-align: center;
 }
 
+header article h1 {
+    font-size: 1.25rem;
+}
 /**************************************
 * Body
 **************************************/
+#jumbo img {
+    position: absolute;
+    opacity: .5;
+    background-color: #000;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+    z-index: -1;
+}
+#jumbo div {
+    position: absolute;
+    bottom: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#jumbo {
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 section {
     min-height: 80vh;
     display: flex;
