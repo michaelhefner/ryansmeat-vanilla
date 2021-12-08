@@ -77,13 +77,6 @@ header article h3 {
     margin-right: auto;
 }
 
-section img {
-    width: 95%;
-    object-fit: cover;
-    margin: 30px;
-    border-radius: 20px;
-    box-shadow: 0 0 15px #00000099;
-  }
 header nav {
     /* background-color: #fbfbfb; */
     width: 70vw;
