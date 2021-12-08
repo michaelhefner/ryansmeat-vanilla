@@ -304,7 +304,7 @@ FORM
 ***************************************************************/
 form {
     display: flex;
-    width: 90%;
+    /* width: 90%; */
     height: 100%;
     flex-direction: column;
     justify-content: center;
@@ -321,7 +321,7 @@ input,
 textarea {
     /* color: white; */
     font-size: large;
-    width: 100%;
+    width: 95%;
     border: none;
     line-height: 2.8rem;
 }
