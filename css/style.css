@@ -320,17 +320,17 @@ label,
 input,
 textarea {
     /* color: white; */
-    
+    font-size: large;
     width: 100%;
     border: none;
-    line-height: 2.2rem;
+    line-height: 2.8rem;
 }
 
 input,
 textarea {
-    background: rgba(255, 255, 255, .3);
+    background: rgba(255, 255, 255, .7);
     border-radius: .25rem;
-    padding-left: 5px;
+    padding-left: 15px;
 }
 
 input {
