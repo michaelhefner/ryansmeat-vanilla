@@ -83,9 +83,14 @@
     padding: 0;
   }
   section img {
-    width: 60%;
-    height: 100%;
+    width: 50%;
     object-fit: cover;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px #00000022;
+  }
+  section:nth-child(1) img{
+    height: 100%;
   }
   #b-edu {
     flex-direction: row;
