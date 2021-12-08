@@ -61,9 +61,8 @@
          for (let i = 0; i < sections.length; ++i) {
              const start =
                  (sections[i].scrollHeight * (i + 1) -
-                     sections[i].scrollHeight) *
-                 0.775;
-             const end = sections[i].scrollHeight * (i + 1) * 0.775;
+                     sections[i].scrollHeight) + 200;
+             const end = sections[i].scrollHeight * (i + 1) + 300;
              if (currentY > start && currentY < end) {
                  const li = document.getElementsByTagName("li")[i];
                  setSectionActive(
