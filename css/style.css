@@ -154,7 +154,6 @@ header article h1 {
 **************************************/
 #jumbo img {
     position: absolute;
-    opacity: .5;
     background-color: #000;
     top: 0;
     width: 100%;
@@ -166,6 +165,7 @@ header article h1 {
     position: absolute;
     bottom: 250px;
     height: 100%;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
