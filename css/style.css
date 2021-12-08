@@ -347,7 +347,7 @@ textarea {
 }
 
 form button {
-    margin: 0;
+    margin: 2rem;
     margin-left: auto;
     border: none;
     padding: .4rem .8rem;
