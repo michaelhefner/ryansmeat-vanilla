@@ -172,6 +172,7 @@ header article h1 {
 }
 #jumbo div h2 {
     text-shadow: 0 0 5px #00000099;
+    font-size: 3rem;
 }
 #jumbo {
     margin-bottom: 300px;
