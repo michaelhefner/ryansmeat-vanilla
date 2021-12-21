@@ -79,7 +79,7 @@ header article h3 {
 
 header nav {
     /* background-color: #fbfbfb; */
-    width: 70vw;
+    width: 100vw;
     align-self: flex-end;
     margin-top: auto;
     margin-right: auto;
@@ -112,8 +112,8 @@ header nav ul li a {
     padding: 10px 0px;
     flex: 1;
     color: #000;
-    font-weight: 300;
-    font-size: 1.25rem;
+    font-weight: 500;
+    font-size: 1.15rem;
 }
 
 a {
@@ -121,10 +121,17 @@ a {
 }
 
 .active {
-    background-color: #00000011;
+    background-color: #9b910a8c;
     color: #121212;
 }
 
+.mobile {
+    display: block;
+}
+
+.desktop {
+    display: none;
+}
 /**************************************
 *Footer
 **************************************/
@@ -152,15 +159,21 @@ header article h1 {
 /**************************************
 * Body
 **************************************/
-#jumbo img {
+#jumbo picture {
     position: absolute;
-    background-color: #000;
     top: 0;
-    width: 100%;
-    object-fit: cover;
-    height: 300px;
     z-index: -1;
     opacity: .75;
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+
+}
+#jumbo picture img {
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+    max-height: 300px;
 }
 #jumbo div {
     /* position: absolute; */
@@ -367,9 +380,11 @@ button:hover {
 **************************************/
 
 #hamburger {
+    position: absolute;
     display: flex;
     flex-direction: column;
-    margin-right: 5px;
+    top: 15px;
+    right: 15px;
 }
 
 .svg-middle-expand-x {

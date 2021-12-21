@@ -20,8 +20,10 @@
 
   <body class="container">
     <header class="header">
+      <h1 class="mobile"><a href="/">Ryansmeat</a></h1>
+
       <article>
-        <h1>ryansmeat</h1>
+        <h1 class="desktop"><a href="/">Ryansmeat</a></h1>
         <nav id="navbar">
           <ul>
             <li id="li-1"><a href="#hero">Home</a></li>
@@ -68,9 +70,40 @@
         <div>
           <h2>Nunc non blandit massa enim</h2>
         </div>
-        <img
+        <picture>
+          <source
+            media="(min-width:1024px)"
+            width="1280"
+
+            srcset="
+              img/sausages-ingredients-cooking-grilled-sausage-with-addition-herbs-spices.jpg
+            "
+          />
+          <source
+            media="(min-width:768px)"
+            width="1280"
+
+            srcset="
+              img/sausages-ingredients-cooking-grilled-sausage-with-addition-herbs-spices-2.jpg
+            "
+          />
+          <source
+            media="(min-width:512px)"
+            width="1280"
+
+            srcset="
+              img/sausages-ingredients-cooking-grilled-sausage-with-addition-herbs-spices-3.jpg
+            "
+          />
+          <img
+            src="img/sausages-ingredients-cooking-grilled-sausage-with-addition-herbs-spices.jpg"
+            alt="fresh ingredients "
+            width="1280"
+          />
+        </picture>
+        <!-- <img
           src="./img/top-view-female-cook-cutting-fresh-green-salad-gray-surface-2.jpg"
-        />
+        /> -->
       </div>
       <section id="hero">
         <div>
@@ -84,7 +117,7 @@
             semper. Eget nunc lobortis mattis aliquam faucibus purus in massa.
           </p>
         </div>
-        <img src="./img/smoked_sausage_1280.jpg" />
+        <img src="./img/smoked_sausage_1280.jpg" width="1280" loading="lazy" />
       </section>
       <section id="flavors">
         <div>
@@ -98,7 +131,7 @@
             semper. Eget nunc lobortis mattis aliquam faucibus purus in massa.
           </p>
         </div>
-        <img src="./img/Beef_Cuts_980.jpg" />
+        <img src="./img/Beef_Cuts_980.jpg" width="1280" loading="lazy"/>
       </section>
       <section id="edu">
         <div>
@@ -114,6 +147,8 @@
         </div>
         <img
           src="./img/indian-spices-collection-vintage-background (3)-2.jpg"
+          loading="lazy"
+          width="1280"
         />
       </section>
       <section id="projects">
@@ -130,6 +165,8 @@
         </div>
         <img
           src="./img/top-view-female-cook-cutting-fresh-green-salad-gray-surface (1)-2.jpg"
+          loading="lazy"
+          width="1280"
         />
       </section>
       <section id="contact">
@@ -156,15 +193,10 @@
             Reason For Request: (optional)
             <textarea
               name="reason"
-              ,
               cols="30"
-              ,
               rows="5"
-              ,
               id="name"
-              ,
               type="text"
-              ,
               placeholder="comments"
             ></textarea>
           </label>
