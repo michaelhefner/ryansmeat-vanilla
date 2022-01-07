@@ -46,8 +46,8 @@ p {
 
 header {
     position: fixed;
-    padding: .75rem 0 0.15rem 0;
-    background: rgba(255,255,255, .9);
+    padding: .75rem 0 0.5rem 0;
+    /* background: rgba(255,255,255, .9); */
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -56,7 +56,7 @@ header {
     transition: all 1s ease-in-out;
     z-index: 100;
     top: 0;
-    /* background-color: #fff; */
+    background-color: #fff;
     /* background-image: linear-gradient(135deg,#6b8f3d 0%,#6b8f3d 20%, #fee32d 20%, #fee32d 20.5%, #c86650 20.5%, #c86650 22%, rgba(0,0,0,0.1) 22%); */
 }
 
