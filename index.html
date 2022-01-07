@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/medium.css" />
 
@@ -22,11 +22,30 @@
   <body class="container">
     <header class="header">
       <!-- <h1 class="mobile"><a href="/">Ryansmeat</a></h1> -->
+      
       <picture class="mobile logo">
-        <img alt="ryans meat logo" height="64px" width="64px" src="./img/ryansmeat_logo_64px.png"/>
+        <source
+          media="(min-width:1024px)"
+          width="128"
+
+          srcset="./img/ryansmeat_logo_128px.png"
+        />
+        <source
+          media="(min-width:768px)"
+          width="64"
+
+          srcset="./img/ryansmeat_logo_64px.png"
+        />
+        <source
+          media="(max-width:768px)"
+          width="32"
+
+          srcset="./img/ryansmeat_logo_32px.png"
+        />
+        <img alt="ryans meat logo" height="64px" width="64px" src="./img/ryansmeat_logo_32px.png"/>
       </picture>
       <article>
-        <img class="desktop logo" height="125px" width="125px"  alt="ryans meat logo" src="./img/ryansmeat_logo_125px.png"/>
+        <img class="desktop logo" height="125px" width="125px"  alt="ryans meat logo" src="./img/ryansmeat_logo_128px.png"/>
 
         <!-- <h1 class="desktop"><a href="/">Ryansmeat</a></h1> -->
         <nav id="navbar">
