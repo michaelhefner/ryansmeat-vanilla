@@ -116,6 +116,15 @@
   .logo {
     top: 0px;
 }
+#contact {
+  flex-direction: row-reverse;
+}
+#contact picture img {
+  border-radius: 0;
+  box-shadow: none;
+  width: auto;
+}
+
   /***************************************************************
 FORM
 ***************************************************************/
