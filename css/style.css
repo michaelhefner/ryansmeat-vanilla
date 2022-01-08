@@ -46,12 +46,12 @@ p {
 
 header {
     position: fixed;
-    padding: .75rem 0 0.5rem 0;
-    /* background: rgba(255,255,255, .9); */
+    padding: .75rem 0 0 0;
+    min-height: 100px;
     display: flex;
     flex-direction: column;
     width: 100%;
-    justify-content: center;
+    justify-content: flex-end;
     box-shadow: 0 0 8px #11111155;
     transition: all 1s ease-in-out;
     z-index: 100;
@@ -85,11 +85,15 @@ header nav {
     margin-right: auto;
     display: none;
 }
+nav a {
+    transition: all 400ms ease-in-out;
+}
 
 nav a:hover,
-nav a:active {
-    background-color: #fff;
-    color: #333;
+nav a:active,
+.active {
+    background: linear-gradient(90deg, transparent 10%, #ee7626bb 50%, transparent 90%);
+    color: #fff;
     font-weight: bolder;
 }
 
@@ -120,10 +124,6 @@ a {
     text-decoration: none;
 }
 
-.active {
-    background-color: #9b910a8c;
-    color: #121212;
-}
 
 .mobile {
     display: block;
@@ -312,6 +312,12 @@ a {
 .show {
     display: flex;
 }
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
 /***************************************************************
 FORM
 ***************************************************************/
@@ -383,8 +389,8 @@ button:hover {
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 15px;
-    right: 15px;
+    top: 25px;
+    right: 25px;
 }
 
 .svg-middle-expand-x {

@@ -13,13 +13,19 @@
   }
 
   header nav ul li {
-    max-width: 7.5vw;
+    /* max-width: 7.5vw; */
   }
 
   header nav ul li a {
     width: 7.5vw;
   }
 
+  header nav ul li a:active,
+  header nav ul li a:hover,
+  header nav ul li .active {
+    background:  #ee7626;
+
+  }
   #education article {
     width: 100%;
     display: flex;
