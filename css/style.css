@@ -389,7 +389,7 @@ button:hover {
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 25px;
+    top: 40px;
     right: 25px;
 }
 
