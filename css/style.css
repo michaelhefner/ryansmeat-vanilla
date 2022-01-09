@@ -367,6 +367,20 @@ a {
     box-shadow: none;
     object-fit: cover;
 }
+#flavors ul {
+    /* justify-self: flex-start; */
+}
+.font-black {
+    color: #000;
+}
+
+.txt-left {
+    text-align: left;
+}
+
+.svg {
+    display: none;
+}
 
 /***************************************************************
 FORM

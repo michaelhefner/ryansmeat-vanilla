@@ -140,5 +140,8 @@
          .addEventListener("click", toggleHamburgerAnimation);
  
      document.getElementById("hamburger").addEventListener("click", toggleNav);
+
+
+    //  document.querySelector("#flavors div ul li ")
  });
  
