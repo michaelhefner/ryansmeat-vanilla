@@ -365,7 +365,7 @@ a {
 #contact picture img {
     border-radius: 0;
     box-shadow: none;
-    object-fit: cover;
+    object-fit: contain;
 }
 #flavors ul {
     /* justify-self: flex-start; */
