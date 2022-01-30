@@ -6,7 +6,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $phone = isset($_POST['phone']) ? $_POST['phone'] : '';
     $reason = isset($_POST['reason']) ? $_POST['reason'] : '';
     echo('Name: ' . $name . '\r\nEmail:' . $email . '\r\nPhone' . $phone . '\r\nComments:' . $reason);
-    
+    if(strpos($reason, 'http') < 0){
     $payload = ('Name: ' . $name . '\r\nEmail:' . $email . '\r\nPhone' . $phone . '\r\nComments:' . $reason);
     
     $header = "From: noreply@ryansmeat.com \r\n";
@@ -19,4 +19,5 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     } else {
         echo('error');
     }
+}
 }
