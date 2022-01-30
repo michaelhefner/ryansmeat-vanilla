@@ -13,6 +13,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $header .= "Content-type: text/html\r\n";
     if(mail( 'ryan@ryansmeat.com', 'ryansmeat lead', $name, $header ) == true){
         echo('<h1>Email successfully sent</h1>');
+        sleep(1);
         header('Location: '.'/');
     } else {
         echo('error');
