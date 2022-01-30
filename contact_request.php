@@ -14,13 +14,12 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $header .= "Content-type: text/html\r\n";
     if(mail( 'ryan@ryansmeat.com', 'ryansmeat lead', $payload, $header ) == true){
         echo('<h1>Email successfully sent</h1>');
-        sleep(2);
         header('Location: '.'/');
     } else {
         echo('error');
     }
 } else {
-header('Location: ' . '/');
+header('Location: ' . '/error');
 }
 }
 ?>
