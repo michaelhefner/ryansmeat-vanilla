@@ -5,10 +5,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = isset($_POST['email']) ? $_POST['email'] : '';
     $phone = isset($_POST['phone']) ? $_POST['phone'] : '';
     $reason = isset($_POST['reason']) ? $_POST['reason'] : '';
-    echo('Name: ' . $name . '\r\nEmail:' . $email . '\r\nPhone' . $phone . '\r\nComments:' . $reason);
-    if(!strpos($reason, 'http')){
-    $payload = ('Name: ' . $name . '\r\nEmail:' . $email . '\r\nPhone' . $phone . '\r\nComments:' . $reason);
-    
+    echo('<strong>Name: </strong>' . $name . '<br/><strong>Email: </strong>' . $email . '<br/><strong>Phone: </strong>' . $phone . '<br/><strong>Comments: </strong>' . $reason);
+    if(!strpos(strtolower($reason), 'http')){
+    $payload = ('<strong>Name: </strong>' . $name . '<br/><strong>Email: </strong>' . $email . '<br/><strong>Phone: </strong>' . $phone . '<br/><strong>Comments: </strong>' . $reason);
+  
     $header = "From: noreply@ryansmeat.com \r\n";
     $header .= "MIME-Version: 1.0\r\n";
     $header .= "Content-type: text/html\r\n";
