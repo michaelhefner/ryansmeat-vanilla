@@ -403,7 +403,7 @@ form h1 {
 label,
 input,
 textarea {
-    color: white;
+    color: black;
     font-size: large;
     width: 95%;
     border: none;
