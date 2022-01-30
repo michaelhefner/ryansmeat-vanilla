@@ -12,7 +12,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $header .= "MIME-Version: 1.0\r\n";
     $header .= "Content-type: text/html\r\n";
     if(mail( 'ryan@ryansmeat.com', 'ryansmeat lead', $name, $header ) == true){
-        echo('successful email');
+        echo('<h1>Email successfully sent</h1>');
+        header('Location: '.'/');
     } else {
         echo('error');
     }
