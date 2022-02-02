@@ -26,9 +26,9 @@
           </ul>
         </div>
         <img
-          src="./img/different-types-ingredients-sausages-made-by-hand (2).jpg"
+          src="./img/different-types-ingredients-sausages-made-by-hand 600x337.jpg"
           loading="lazy"
-          width="1280px"
-          height="500px"
+          width="600px"
+          height="337px"
         />
       </section>
