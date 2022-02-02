@@ -12,5 +12,5 @@
             We can even process your wild game into food you'll love.
           </p>
         </div>
-        <img src="./img/fresh-raw-sausage-old-wooden_400px.jpg" width="1280px" />
+        <img src="./img/roasted-sausages 600x400.jpg" width="600px" height="400px" />
       </section>
