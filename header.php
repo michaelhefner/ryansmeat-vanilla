@@ -1,7 +1,7 @@
 
     <header class="header">
       <!-- <h1 class="mobile"><a href="/">Ryansmeat</a></h1> -->
-      
+      <a href="#">
       <picture class="mobile logo">
         <source
           media="(min-width:1024px)"
@@ -17,6 +17,7 @@
         />
         <img alt="ryans meat logo" height="64px" width="64px" src="./img/ryansmeat_logo_64px.png"/>
       </picture>
+      </a>
       <article>
         <img class="desktop logo" height="128px" width="128px"  alt="ryans meat logo" src="./img/ryansmeat_logo_128px.png"/>
 
