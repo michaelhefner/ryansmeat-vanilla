@@ -30,7 +30,7 @@
         <img
           src="./img/bowl-with-jerky-meat-peppers-rosemary-light-gray-background-horizontal-format 600x373.jpg"
           loading="lazy"
-          width="1280px"
-          height="500px"
+          width="600px"
+          height="373px"
         />
       </section>
