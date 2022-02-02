@@ -436,14 +436,18 @@ form button {
     margin: 2rem;
     margin-left: auto;
     border: none;
-    padding: .4rem .8rem;
+    padding: .8rem 1.2rem;
+    border-radius: 5px;
     font-size: 1.25rem;
     align-self: flex-end;
+    background-color: white;
+    color: #ee7626;
+    transition: all 500ms ease-in-out;
 }
 
 button:hover {
     cursor: pointer;
-    background: yellow;
+    background: #ee7626dd;
     color: white;
     
 }

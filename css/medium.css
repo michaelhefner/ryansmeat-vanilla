@@ -94,8 +94,7 @@
     margin: 30px;
     border-radius: 20px;
     box-shadow: 0 0 30px -10px #00000099;
-  }
-  section img {
+    height: 100%;
     width: 40%;
   }
   section:nth-child(1) img {
