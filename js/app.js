@@ -96,7 +96,7 @@
          isMobileView = event.target.innerWidth < 1024;
          const heroH2 = document.querySelector(".hero h2");
          heroH2.appendChild(document.createTextNode(document.innerWidth));
- 
+ console.log(document.innerWidth);
          if (isMobileView) {
              document.addEventListener("scrollEnd", startHideTimer);
              document.addEventListener("click", startShowTimer);
