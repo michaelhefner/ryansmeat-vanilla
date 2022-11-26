@@ -94,9 +94,7 @@
  
      window.addEventListener("resize", (event) => {
          isMobileView = event.target.innerWidth < 1024;
-         const heroH2 = document.querySelector("#hero");
-         heroH2.innerHTML = window.innerWidth;
- console.log(window.innerWidth);
+        
          if (isMobileView) {
              document.addEventListener("scrollEnd", startHideTimer);
              document.addEventListener("click", startShowTimer);
