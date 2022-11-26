@@ -94,7 +94,7 @@
  
      window.addEventListener("resize", (event) => {
          isMobileView = event.target.innerWidth < 1024;
-         const heroH2 = document.querySelector(".hero h2");
+         const heroH2 = document.querySelector("#hero");
          heroH2.appendChild(document.createTextNode(document.innerWidth));
  console.log(document.innerWidth);
          if (isMobileView) {
